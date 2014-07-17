@@ -2,7 +2,7 @@ angular.module('sociogram', ['ionic', 'openfb', 'sociogram.controllers'])
 
     .run(function ($rootScope, $state, $ionicPlatform, $window, OpenFB) {
 
-        OpenFB.init('YOUR_FB_APP_ID');
+        OpenFB.init('282128391886823s');
 
         $ionicPlatform.ready(function () {
             if (window.StatusBar) {
